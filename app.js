@@ -31,7 +31,7 @@
        
           if(tubop>300 && tubop <350 && ghostp<=600 && ghostp>=500){
             //console.log("perdeu"+tubop);
-            alert("voce perdeu otario")
+            alert("voce perdeu")
           }
         
          stsop();
