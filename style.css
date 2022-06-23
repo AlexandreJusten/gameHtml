@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.fundo{
+
+    width: 100%;
+    height: 965px;
+    position: absolute;
+}
+.tubo{
+    width: 100px;
+    position: absolute;
+    margin-top: 565px;
+    animation: andartubo 4s infinite;
+}
+.ghost{
+    position: absolute;
+    width: 100px;
+    margin-top: 600px;
+    margin-left: 350px;
+    
+}
+.butterr{
+    position: absolute;
+    margin-left: 47.5%;
+    margin-top: 50px;
+    background-color: rgba(243, 243, 243, 0);
+    color: black;
+    width: 100px;
+    height: 50px;
+    border-color: aliceblue;
+    margin-top: 20px;
+   
+}
+.tocompreguiça{
+    position: absolute;
+    margin-left: 41%;
+    margin-top: 50px;
+    background-color: rgba(243, 243, 243, 0);
+    color: black;
+    width: 100px;
+    height: 50px;
+    border-color: aliceblue;
+    margin-top: 20px;
+   
+}
+
+@keyframes andartubo {
+
+    0%{margin-left: 110%;
+    }
+    100%{margin-left: -20%;}
+  }
+  @keyframes pularghost {
+
+    0%{bottom: 260px;
+    }
+    50%{
+        bottom:500px;
+    }
+    100%{bottom: 260px;}
+  }
